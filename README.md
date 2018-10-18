@@ -399,6 +399,22 @@ def is_prime(number):
     return True
 ```
 
+How to refactor the for loop through list comprehension?
+
+## Exercise - Refactoring Stage
+
+Please refactor the for loop through list comprehension, only one code line. The test should follow being in GREEN.
+
+```python
+def is_prime(number):
+    """Return True if *number* is prime."""
+    if number <= 1:
+        return False
+    
+    """Here refactor for loop"""
+
+```
+
 
 
 

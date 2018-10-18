@@ -3,4 +3,4 @@ python:
   - "3.6"
 cache: pip
 script:
-  - python tests.py
+  - python test_primes.py
