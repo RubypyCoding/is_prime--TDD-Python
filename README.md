@@ -8,13 +8,13 @@ We are going to write a simple application that finds prime numbers.
 
 Our first step. It's neccesary to add two files for our folder. First file is for testing, it always has to have `test_` + `file name` + `.py`:
 
-```python
+```
 $ touch test_primes.py
 ```
 
 Second, it is important to create the production file.
 
-```python
+```
 $ touch primes.py
 ``` 
 
@@ -71,7 +71,7 @@ if __name__ == '__main__':
     unittest.main()
 ```
 
-```python
+```
 $ python test_primes.py
 E
 ======================================================================
@@ -114,7 +114,7 @@ self.assertTrue(is_prime(5))
 
 The current output of our `spec` is the following:
 
-```python
+```
 $ python test_primes.py
 E
 ======================================================================
@@ -141,7 +141,7 @@ Ran 1 test in 0.000s
 
 Once we fix the error, changing the line in `is_prime.py` to `for element in range(2, number):`, we get the following output:
 
-```python
+```
 $ python test_primes.py
 .
 ----------------------------------------------------------------------
@@ -215,7 +215,7 @@ if __name__ == '__main__':
 
 The output is:
 
-```python
+```
 python test_primes.py
 ..F
 ======================================================================
@@ -258,7 +258,7 @@ def is_prime(number):
 
 And now, the output is:
 
-```python
+```
 ...
 ----------------------------------------------------------------------
 Ran 3 tests in 0.000s
@@ -289,7 +289,7 @@ In this spec we decide to check all numbers from -1 .. -9. Calling a test method
 
 The output will be...
 
-```python
+```
 python test_primes.py
 ...F
 ======================================================================
@@ -325,7 +325,7 @@ def test_negative_number(self):
 
 The output will be...
 
-```python
+```
 python test_primes
 ...F
 ======================================================================
@@ -372,7 +372,7 @@ def is_prime(number):
 And voila... test in GREEN!
 
 
-```python
+```
 ....
 ----------------------------------------------------------------------
 Ran 4 tests in 0.001s
